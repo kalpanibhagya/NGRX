@@ -1,4 +1,3 @@
-
 import { environment } from './../environments/environment';
 import { CustomerEffects } from './store/customer.effects';
 import { BrowserModule } from '@angular/platform-browser';
