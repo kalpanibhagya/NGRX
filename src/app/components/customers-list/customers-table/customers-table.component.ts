@@ -3,8 +3,8 @@ import { Customer } from '../../../models/customer.model';
 
 @Component({
   selector: 'app-customers-table',
-  templateUrl: './cusomers-table.component.html',
-  styleUrls: ['./cusomers-table.component.scss']
+  templateUrl: './customers-table.component.html',
+  styleUrls: ['./customers-table.component.scss']
 })
 export class CustomersTableComponent implements OnInit {
   @Input() customers: Customer[];

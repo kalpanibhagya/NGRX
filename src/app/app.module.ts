@@ -9,7 +9,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CustomerReducer } from './store/customer.reducer';
-import { CustomersTableComponent } from './components/customers-list/customers-table/cusomers-table.component';
+import { CustomersTableComponent } from './components/customers-list/customers-table/customers-table.component';
 import { CustomersListComponent } from './components/customers-list/customers-list.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
